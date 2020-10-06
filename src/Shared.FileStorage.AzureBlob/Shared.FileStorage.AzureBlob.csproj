@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Brad Huggins</Authors>
+    <Company>Brad Huggins</Company>
+    <AssemblyVersion>0.4.0.0</AssemblyVersion>
+    <Version>0.4.0</Version>
+    <Description>Shared helper library for implementing file storage using Azure Blob storage. </Description>
+    <RepositoryUrl>https://github.com/bradhuggins/Shared.FileStorage</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageId>BradHuggins.Shared.FileStorage.AzureBlob</PackageId>
+    <PackageProjectUrl>https://github.com/bradhuggins/Shared.FileStorage</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+  </ItemGroup>
+  
+</Project>

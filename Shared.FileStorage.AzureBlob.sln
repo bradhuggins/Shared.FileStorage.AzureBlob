@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.AzureBlob", "src\Shared.FileStorage.AzureBlob\Shared.FileStorage.AzureBlob.csproj", "{C2CD1AB6-E612-4D41-B95F-288BADB53BA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29CD6608-CFD9-4FA4-BBB6-3372024640D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{923801F8-E67B-461A-AC56-9F624E842620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CDF2A1C-E796-4319-8DE2-0EB3660DCA72}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.FileStorage.AzureBlob.Tests", "test\Shared.FileStorage.AzureBlob.Tests\Shared.FileStorage.AzureBlob.Tests.csproj", "{038A9A9E-3615-4C5C-BD47-DEB76A817282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CD1AB6-E612-4D41-B95F-288BADB53BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CD1AB6-E612-4D41-B95F-288BADB53BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CD1AB6-E612-4D41-B95F-288BADB53BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CD1AB6-E612-4D41-B95F-288BADB53BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038A9A9E-3615-4C5C-BD47-DEB76A817282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038A9A9E-3615-4C5C-BD47-DEB76A817282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038A9A9E-3615-4C5C-BD47-DEB76A817282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038A9A9E-3615-4C5C-BD47-DEB76A817282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2CD1AB6-E612-4D41-B95F-288BADB53BA4} = {29CD6608-CFD9-4FA4-BBB6-3372024640D3}
+		{038A9A9E-3615-4C5C-BD47-DEB76A817282} = {923801F8-E67B-461A-AC56-9F624E842620}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6217F6F6-1726-4932-B65A-77040223C02F}
+	EndGlobalSection
+EndGlobal
